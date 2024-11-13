@@ -14,11 +14,13 @@ The repository contains Python code for data preprocessing, feature extraction, 
 - [Machine Learning Models](#machine-learning-models)
 - [Evaluation](#evaluation)
 - [How to Use](#how-to-use)
-- [Example Prediction](#example-prediction)
 - [Dependencies](#dependencies)
 
 ## Dataset
 
+Dataset Source: [**Bengali Sentiment Classification**](https://www.kaggle.com/datasets/saurabhshahane/bengali-sentiment-classification)
+
+Description:
 The dataset consists of two text files:
 - **`all_positive_8500.txt`**: Contains positive comments
 - **`all_negative_3307.txt`**: Contains negative comments
@@ -57,6 +59,9 @@ The following models were tested on the processed data:
 - **Support Vector Machine (SVM)**
 - **Passive Aggressive Classifier**
 
+## Deep Learning Model
+- **Hyperparametertuned RNN**
+
 ## Evaluation
 
 The models were evaluated on the test set using:
@@ -80,21 +85,4 @@ The Logistic Regression model provided the best balance of performance, and ther
     pip install -r requirements.txt
     ```
 
-3. **Run the Prediction Script**:
-    You can use the `predict_comment` function in `model.py` to predict sentiments of new comments.
-
-4. **Save and Load Model**:
-    The trained Logistic Regression model and TF-IDF vectorizer have been saved using `joblib`. To use them:
-    ```python
-    from joblib import load
-    model = load('Bangla_Drama_Comment_Analysis_LogisticRegression.pkl')
-    vectorizer = load('tfidf_vectorizer.pkl')
-    ```
-
-## Example Prediction
-
-To predict the sentiment of a new comment:
-
-```python
-new_comment = "স্টুডেন্ট মেয়েটা নাটকটাকে ভাল বানিয়েছে.."
-print(f'Prediction: {predict_comment(new_comment)}')
+3. **Run the .ipynb of any machine or deep learning model(s)**:
