@@ -76,7 +76,7 @@ The Logistic Regression model provided the best balance of performance, and ther
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/yourusername/Bangla-Drama-Comment-Sentiment-Analysis.git
-    cd Bangla-Drama-Comment-Sentiment-Analysis
+    cd Bangla-Drama-Comment-Sentiment-Analysis-and-Prediction
     ```
 
 2. **Install Dependencies**:
