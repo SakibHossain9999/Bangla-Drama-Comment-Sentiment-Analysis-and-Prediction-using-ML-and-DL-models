@@ -1,6 +1,6 @@
 # Bangla-Drama-Comment-Sentiment-Analysis-and-Prediction
 
-This project applies machine learning models to classify Bangla drama comments into positive and negative sentiments. The project leverages Natural Language Processing (NLP) techniques and a supervised learning approach to preprocess, train, and evaluate multiple machine learning models on a custom dataset.
+This project applies machine learning and deep learning models to classify Bangla drama comments into positive and negative sentiments. The project leverages Natural Language Processing (NLP) techniques and a supervised learning approach to preprocess, train, and evaluate multiple machine learning models on a custom dataset.
 
 ## Project Overview
 
