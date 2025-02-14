@@ -85,7 +85,7 @@ The Logistic Regression model provided the best balance of performance, and ther
     pip install -r requirements.txt
     ```
 
-3. **Run the .ipynb of any machine or deep learning model(s)**:
+3. **Run the .ipynb of any machine or deep learning model(s)**
 
 ## Licensing
 
